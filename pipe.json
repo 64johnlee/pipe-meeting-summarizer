@@ -1,0 +1,12 @@
+{
+  "name": "meeting-summarizer",
+  "description": "Granola-inspired meeting assistant — live transcript, AI notes, action items, and summaries from your screenpipe audio. Automatically detects meetings and generates structured notes.",
+  "version": "1.0.0",
+  "author": "64johnlee",
+  "crons": [
+    {
+      "path": "/api/cron/meeting",
+      "schedule": "*/10 * * * *"
+    }
+  ]
+}
